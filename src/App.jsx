@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import Komponenta from "./Komponenta";
 
 function App() {
-
-  return (
-    <>
-    
-    </>
-  )
+    return (
+        <>
+            <Komponenta title="Naslov Klasna komponenta" broj={5}/>
+        </>
+    );
 }
 
-export default App
+export default App;
