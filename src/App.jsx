@@ -6,7 +6,9 @@ function App() {
     return (
         <>
             <ClassComponent />
-            <FuncComponent />
+            <FuncComponent title="title poslan" ime="Tomislav" godine={40}>
+            <p>Dodatan opis...</p>
+            </FuncComponent>
         </>
     );
 }
